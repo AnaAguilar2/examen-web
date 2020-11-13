@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#arriba{
+    background-color: #1ABC9C;
+    text-align: center;
+}
+.menu {
+    width: 1022px;
+    padding: 10px 0px;
+    border: 1px solid  #1ABC9C;
+    margin: 0px auto;
+    text-align: left;
+}
+#opcion1 {
+    padding: 10px;
+    background-color: #F5A9E1;
+    cursor: pointer;
+}
+#opcion2 {
+    padding: 10px;
+    background-color: #FA8258;
+    cursor: pointer;
+}
+#opcion3 {
+    padding: 10px;
+    background-color: #E6E6E6;
+    cursor: pointer;
+}
+table,td,th,tr{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+#abajo {
+    margin-left: 50px;
+}

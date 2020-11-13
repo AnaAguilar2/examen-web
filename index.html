@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/second.css">
+    <title>Examen Ana 5B</title>
+</head>
+<body>
+    <div id="arriba">
+        <img src="/img/banner5b.jpg" alt="Universidad de Colima">
+        <div class="menu">
+            <span id="opcion1" onclick="opcion(1)">Elementos HTML</span>
+            <span id="opcion2"onclick="opcion(2)">Procesos</span>
+            <span id="opcion3" onclick="opcion(3)">Relleno</span>
+        </div>
+    </div>
+    <div id="abajo">
+        <div id="elementos">
+            <h2>Secci&oacute;n de elementos HTML</h2>
+            <h3 id="listaMostrar">Listas ordenadas <span>(Click para generar lista)</span></h3>
+            <div id="lista"></div>
+        </div>
+        <div id="process">
+            <h2>Secci&oacute;n de procesos</h2>
+            <p>
+                producto: <input type="text" id="producto" size="30">
+                precio: <input type="text" id="precio" size="20">
+                cantidad: <input type="text"id="cantidad" size="20">
+            </p>
+            <button onclick="compra();">Agregar compra</button>
+        </div>
+        <div>
+            <table id="tabla">
+
+            </table>
+        </div>
+        <div id="relleno">
+            <h2>Sección de relleno</h2>
+            <div>
+                <img class="news"src="/img/iconoNews.png" alt="Icono new" width="50">
+                <div class="icono">
+                    <p>Conteos y algo mas
+                        <br>
+                        <span id="sugerir">Levantamiento de informacion</span>
+                    </p>
+                </div>
+                <br><br>
+                <img onclick="like();" src="/img/like.jpg" alt="likes" width="200">
+                <h3 id="info"> 0 Me gusta</h3>
+            </div>
+        </div>
+        
+    </div>
+    <div id="pie">
+        <hr>
+        <p> &reg; Desarrollado por: <a href="#">Ana Aguilar</a></p>
+    </div>
+
+   <script src="/second.js"></script> 
+</body>
+</html>
